@@ -1,3 +1,7 @@
+# Where's the website
+
+[Here](https://meghnaandkshitij.us).
+
 # How to make and preview changes
 
 Edit `index.md` or `bundle.css`. In another terminal windown, run `npx
