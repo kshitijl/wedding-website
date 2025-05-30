@@ -1,0 +1,398 @@
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    color: #2f4e96;
+    background-color: #fefaf2;
+}
+
+.responsive-image {
+    display: block; /* Removes any extra space below the image if it were inline */
+    width: 100%;   /* Makes the image take the full width of its parent (.content-wrapper) */
+    height: auto;  /* Maintains the aspect ratio */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #2f4e96;
+}
+
+.version {
+    background-color: #ff00ff;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #2f4e96;
+}
+
+.intro {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #2f4e96;
+}
+
+.section-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+/* Schedule Table */
+.schedule-container {
+    overflow-x: auto;
+    margin-bottom: 2rem;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: top;
+}
+
+.date-cell {
+    background-color: #fcfbf1;
+    font-weight: 500;
+    min-width: 120px;
+}
+
+.event-cell {
+    background-color: #fcfbf1;
+    font-weight: 500;
+    min-width: 100px;
+}
+
+.location-cell {
+    background-color: #fcfbf1;
+}
+
+.schedule-table a {
+    color: #1155cc;
+    text-decoration: underline;
+}
+
+/* Event Cards */
+.event-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-event {
+    border-left: 4px solid #fac7c3;
+}
+
+.event-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.event-subtitle {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.event-meta {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.event-date {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.event-time {
+    margin: 0.5rem 0;
+}
+
+.event-location a {
+    color: #1155cc;
+    text-decoration: underline;
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.detail-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.detail-label {
+    font-weight: 700;
+    color: #2f4e96;
+    background-color: #fac7c3;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.detail-content {
+    padding: 0.5rem;
+}
+
+.dress-section {
+    margin-bottom: 1rem;
+}
+
+.dress-section ul {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.detail-content ul {
+    margin-left: 1.5rem;
+}
+
+/* Info Cards */
+.info-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-item {
+    margin-bottom: 1.5rem;
+}
+
+.info-item:last-child {
+    margin-bottom: 0;
+}
+
+.info-title {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #2f4e96;
+}
+
+/* Color Palette */
+.color-palette {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.color-item {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.color-swatch {
+    width: 100%;
+    height: 80px;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    border: 2px solid rgba(47, 78, 150, 0.2);
+}
+
+.color-name {
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.color-code {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Highlight Box */
+.highlight-box {
+    background-color: #fcfbf1;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    border-left: 4px solid #fac7c3;
+}
+
+/* FAQ */
+.faq-item {
+    margin-bottom: 2rem;
+}
+
+.faq-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq-question {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #2f4e96;
+}
+
+.faq-answer {
+    margin-bottom: 1rem;
+}
+
+/* Charity Table */
+.charity-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.charity-table th,
+.charity-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.charity-table th {
+    background-color: #fcfbf1;
+    font-weight: 700;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem 0.75rem;
+    }
+    
+    .main-title {
+        font-size: 2rem;
+    }
+    
+    .version {
+        font-size: 1.5rem;
+    }
+    
+    .subtitle {
+        font-size: 1.25rem;
+    }
+    
+    .intro {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .event-card {
+        padding: 1.5rem;
+    }
+    
+    .info-card {
+        padding: 1.5rem;
+    }
+    
+    .schedule-table td {
+        padding: 0.75rem;
+        font-size: 0.9rem;
+    }
+    
+    .detail-row {
+        flex-direction: column;
+    }
+    
+    .color-palette {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+    
+    .color-swatch {
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 1.75rem;
+    }
+    
+    .version {
+        font-size: 1.25rem;
+        padding: 0.2rem 0.4rem;
+    }
+    
+    .subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .event-card {
+        padding: 1rem;
+    }
+    
+    .info-card {
+        padding: 1rem;
+    }
+    
+    .color-palette {
+        grid-template-columns: 1fr;
+    }
+    
+    .schedule-table {
+        font-size: 0.85rem;
+    }
+    
+    .schedule-table td {
+        padding: 0.5rem;
+    }
+}
