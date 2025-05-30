@@ -27,7 +27,7 @@ We’ll be hanging around all weekend and dream of spontaneous hangs and get tog
 
 <br/>
 
-The wedding will run from mid- afternoon into the evening, with dinner and cake
+The wedding will run from mid-afternoon into the evening, with dinner and cake
 provided. It will be potentially quite HOT, so lighter dress \+ a jacket is
 recommended. The temperatures in the Bay can drop dramatically in the evening.
 Indoor & outdoor venue.
