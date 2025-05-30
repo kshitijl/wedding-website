@@ -1,0 +1,13 @@
+<h1>Where's the website</h1>
+<p><a href="https://meghnaandkshitij.us">Here</a>.</p>
+<h1>How to make and preview changes</h1>
+<p>Edit <code>index.md</code> or <code>bundle.css</code>. In another terminal windown, run <code>npx @11ty/eleventy --serve</code>, which will watch for changes and run a webserver
+locally that you can use to preview changes.</p>
+<p>Images should go in the <code>public/</code> directory. Everything in that directory is
+deployed to production.</p>
+<h1>How it's deployed</h1>
+<p>Just static assets on a Cloudflare Worker. There is an automatic deployment
+pipeline: you push to github, and Cloudflare runs the build step (<code>npx @11ty/eleventy</code>) and deploys (<code>npx wrangler deploy</code>).</p>
+<p>To build and/or deploy manually, run those commands yourself in the terminal
+(but deployment probably won't work unless you're KL, because you don't have the
+Cloudflare authorization).</p>

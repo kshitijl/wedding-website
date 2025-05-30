@@ -3,6 +3,8 @@ layout: default-layout.njk
 ---
 # **Meghna x Kshitij  1.0**
 
+![](./IMG_1791.jpeg)
+
 ## Wedding Details For Friends
 
 Hello\! Here is some info for our upcoming NUPTIALS. This document will continue to be updated.
@@ -79,6 +81,8 @@ Casual.
 
 Literally anything.
 
+![](./IMG_3.jpeg)
+
 ## Travel & Accommodations
 
 ##### Flying
@@ -134,3 +138,4 @@ Thank you, you dreamy person. We have no registry. If you are so moved, you coul
 | Name |  |
 | Name |  |
 
+![](./IMG_1391.jpeg)
