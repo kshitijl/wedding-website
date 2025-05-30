@@ -10,7 +10,7 @@ Hello\! Here is some info for our upcoming NUPTIALS. This document will continue
 The “formal events” are  on 7/3 & 7/4, with additional casual hangs all weekend. See schedule below.
 
 ## Events
-We’ll be hanging around all weekend and dream of spontaneous hangs and get togethers. We’re dreaming of a saturday (7/5) picnic with whoever is still around. Maybe a trip to a brewery, who knows\! We imagine a world where folks are proposing and arranging their own events or explorations. The Bay 🌁 has so much to offer 💜.
+We’ll be hanging around all weekend and dream of spontaneous hangs and get-togethers. We’re dreaming of a saturday (7/5) picnic with whoever is still around. Maybe a trip to a brewery, who knows\! We imagine a world where folks are proposing and arranging their own events or explorations. The Bay 🌁 has so much to offer 💜.
 
 ### High level Calendar
 
