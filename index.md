@@ -16,9 +16,9 @@ We’ll be hanging around all weekend and dream of spontaneous hangs and get tog
 
 | When                       | What           | Where |
 | :---- | :---- | :---- |
-| **7/3/2025** 4:00pm \– 10:00pm | 👰🏾‍♀️🤵🏾‍♂️ Wedding   | [Temescal Beach House](https://www.ebparks.org/reservations/event-venues/beach-house), Oakland CA  |
-| **7/4/2025** 6 pm \- 10 pm | 🎭 Sangeet aka A Friend Talent Show |  [Live Oak Community Center](https://g.co/kgs/BzkusMH), Berkeley CA |
-| **7/5/2025** 11 am \- 3 pm | 🧺☀️🍷 Picnic\! (unofficial)  | Cragmont Park, Berkeley, CA |
+| **7/3/2025** 4pm - 10pm | 👰🏾‍♀️🤵🏾‍♂️ Wedding   | [Temescal Beach House](https://www.ebparks.org/reservations/event-venues/beach-house), Oakland CA  |
+| **7/4/2025** 6pm - 10pm | 🎭 Sangeet aka A Friend Talent Show |  [Live Oak Community Center](https://g.co/kgs/BzkusMH), Berkeley CA |
+| **7/5/2025** 11am - 3pm | 🧺☀️🍷 Picnic\! (unofficial)  | Cragmont Park, Berkeley, CA |
 
 ### 👰🏾‍♀️🤵🏾‍♂️<br/>Wedding
 ###### **7/3/2025**
@@ -50,7 +50,7 @@ Summery, floral, cocktail  party vibes.
 ### 🎭<br/>Sangeet
 ###### _aka A Friend Talent Show_
 ###### **7/4/2025**
-###### _6 pm \- 10 pm_
+###### _6:00 pm \- 10:00 pm_
 ###### [Live Oak Community Center](https://g.co/kgs/BzkusMH), Berkeley CA
 
 ##### Vibe
@@ -69,7 +69,7 @@ Dressy casual.
 
 ### 🧺☀️🍷<br/>Picnic (Unofficial)
 ###### **7/5/2025**
-###### 11 am \- 3 pm
+###### 11:00 am \- 3:00 pm
 ###### Cragmont Park, Berkeley, CA
 
 ##### Vibe
@@ -116,6 +116,14 @@ Text us and we’ll add to this section.
 #### Do I have to come to every event?
 
 No. But tell us if you’re coming to the wedding so we have your headcount for the caterer.
+
+#### What about the India wedding?
+
+There will be one! Probably in Jan or Feb 2026. We're figuring out the details and will reach out soon.
+
+#### Who will sing at Sangeet? Who is the talent?
+
+You. You are the talent. You will hear from us soon.
 
 #### What if I want to give you guys a non-book gift, do you have a registry?
 
