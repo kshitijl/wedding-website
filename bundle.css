@@ -3,6 +3,11 @@
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura/
  */
+:root {
+  --hover-accent-color: #f489c2; /* Define the hover color variable */
+ --accent-color: #ae2159; 
+}
+
 /* Body */
 html {
   font-size: 62.5%;
@@ -14,25 +19,29 @@ body {
   line-height: 1.618;
   max-width: 38em;
   margin: auto;
-  color: #4a4a4a;
-  background-color: #f9f9f9;
-  padding: 13px;
+  color: #532638;
+  background-color: #ffe6f2;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 @media (max-width: 684px) {
   body {
     font-size: 1.53rem;
   }
+ 
+    
 }
 @media (max-width: 382px) {
   body {
     font-size: 1.35rem;
   }
+   
 }
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   font-family: Merriweather, serif;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   overflow-wrap: break-word;
@@ -42,8 +51,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.35em;
+  font-size: 3em;
   text-align: center;
+  margin-bottom:4rem;
+  margin-top:5rem;
+  font-style: italic;
+  font-weight:100;
 }
 
 h2 {
@@ -80,19 +93,19 @@ small, sub, sup {
 }
 
 hr {
-  border-color: #1d7484;
+  border-color: var(--accent-color);
 }
 
 a {
   text-decoration: none;
-  color: #1d7484;
+  color: var(--accent-color);
 }
 a:visited {
-  color: #144f5a;
+  color: var(--accent-color);
 }
 a:hover {
-  color: #982c61;
-  border-bottom: 2px solid #4a4a4a;
+  color: var(--hover-accent-color);
+  border-bottom: 2px solid var(--accent-color);
 }
 
 ul {
@@ -126,7 +139,9 @@ img, video {
   max-width: 100%;
   margin-top: 0px;
   margin-bottom: 2.5rem;
+  border-radius: 25px;
 }
+
 
 /* Pre and Code */
 pre {
@@ -171,7 +186,7 @@ input, textarea {
   border: 1px solid #4a4a4a;
 }
 input:focus, textarea:focus {
-  border: 1px solid #1d7484;
+  border: 1px solid var(--accent-color);
 }
 
 textarea {
@@ -196,7 +211,7 @@ textarea {
   opacity: 0.5;
 }
 .button:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, input[type=file]::file-selector-button:hover {
-  background-color: #982c61;
+  background-color: #df78aa;
   color: #f9f9f9;
   outline: 0;
 }
@@ -228,4 +243,98 @@ label, legend, fieldset {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 600;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 1001;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Center SVG vertically */
+  justify-content: center; /* Center SVG horizontally */
+  width: 48px; /* Increased width */
+  height: 48px; /* Increased height */
+  box-sizing: border-box;
+  border-radius: 50%; /* Added for default circular shape */
+  transition: background-color 0.3s ease-in-out; /* Added for smooth hover */
+}
+
+.hamburger-menu:hover {
+  background-color: var(--hover-accent-color); /* Use variable for hamburger hover */
+}
+
+.hamburger-menu svg.hamburger-icon {
+  width: 100%; /* Make SVG fill button width */
+  height: 100%; /* Make SVG fill button height */
+}
+
+.hamburger-menu.hamburger-hidden {
+  display: none;
+}
+
+/* Side Panel */
+.side-panel {
+  position: fixed;
+  top: 0;
+  right: -282px; /* width (280px) + shadow offset (2px) */
+  width: 280px;
+  height: 100%;
+  background-color: #f5f3ed; /* Match body background */
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+  transition: right 0.3s ease-in-out;
+  z-index: 1000; /* Below hamburger when closed, but above content */
+  padding: 20px;
+  padding-top: 60px; /* Space for close button */
+  overflow-y: auto;
+  box-sizing: border-box; /* Ensure padding is within the width */
+}
+
+.side-panel.open {
+  right: 0; /* Slide in */
+}
+
+.side-panel .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.side-panel .close-btn:hover {
+  background-color: var(--hover-accent-color);
+}
+
+.side-panel .close-btn svg.close-icon {
+  width: 75%;
+  height: 75%;
+}
+
+#side-panel-nav a {
+  display: block;
+  padding: 10px 0;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#side-panel-nav a:hover {
+  background-color: #e0e0e0;
+  color: var(--hover-accent-color);
+  border-bottom: 1px solid #e0e0e0;
 }
