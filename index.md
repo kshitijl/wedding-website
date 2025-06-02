@@ -135,7 +135,7 @@ Thank you, you dreamy person. We have no registry. If you are so moved, you coul
 
 | Charity | Why we picked it |
 | :---- | :---- |
-| Name |  |
-| Name |  |
+| [Malaria Consortium (click to donate)](https://www.malariaconsortium.org/support-us/donate.htm) | They are [GiveWell's top charity](https://www.givewell.org/charities/top-charities) because they are cost-effective and give rigorous evidence that the programs they run actually work. |
+| [World Central Kitchen (click to donate)](https://wck.org/donate) | [Charity Navigator awards them four stars](https://www.charitynavigator.org/ein/273521132) for their work providing food to people struck by disaster, in places including Gaza, Ukraine and Southern California. |
 
 ![](./IMG_1391.jpeg)
