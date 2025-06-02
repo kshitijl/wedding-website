@@ -112,7 +112,7 @@ Text us and we'll add to this section.
 
 #### Do I have to come to every event?
 
-No. But tell us if you're coming to the wedding so we have your headcount for the caterer.
+No. But tell us if you're coming to the wedding so we have your headcount for the caterer.  
 
 #### What about the India wedding?
 
