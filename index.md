@@ -34,9 +34,11 @@ picnic on Saturday (7/5) with whoever is still around and wants to come.
 <br/>
 
 The wedding will run from mid-afternoon into the evening, with dinner and cake
-provided. It will be potentially quite HOT, so lighter dress \+ a jacket is
-recommended. The temperatures in the Bay can drop dramatically in the evening.
-Indoor & outdoor venue.
+provided. Check [the
+weather](https://www.accuweather.com/en/us/berkeley/94704/daily-weather-forecast/332044?day=32)!
+It can go from quite hot during the day to cool at night. We recommend lighter
+clothing and bringing a jacket. The venue has both indoor and outdoor parts and
+we'll move between them.
 
 ##### What to bring
 2 copies of a book! See “Books as Gifts 📖” below.
