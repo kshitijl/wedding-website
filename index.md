@@ -101,14 +101,13 @@ Click [here](https://en.wikipedia.org/wiki/Baraat) to see what Wikipedia has to 
 
 A Sangeet (_Sung Together_ from Sanskrit) traditionally occurs before the
 wedding and is a time for friends and family to join together for song and
-dancing. We’re adapting it to be a kind of Show and Tell on the theme of Love,
-Change and Leaps of Faith.
+dance. We’re adapting it to be a Show and Tell on the theme of Love, Change and
+Leaps of Faith.
 
 ##### Who is the talent?
 You. You are the talent.
 
 ##### What are examples of things people are doing?
-For example:
 
 - The groom will share his Apple Notes (48 and growing) about the bride.
 - A close friend will sing a song on guitar about remembering loved ones who
@@ -123,10 +122,12 @@ For example:
 We’ll start the show at 6:30pm and eat around 7pm.
 
 ##### How to get there
-You can BART to Downtown Berkeley and take 18 or 67 bus, or uber from there. Keep in mind it will be July 4!
+You can BART to Downtown Berkeley and take the 18 or 67 bus, or Uber from there.
+Keep in mind it will be July 4!
 
 ##### Where to park
-Live Oak Community Center  does not have onsite parking, so you will need to find street parking if you’re driving.
+Live Oak Community Center does not have onsite parking, so you will need to find
+street parking if you’re driving.
 
 ##### What to bring
 Whatever you need for your show and tell!
@@ -155,7 +156,6 @@ Casual.
 ##### Dress suggestion
 
 Literally anything.
-
 
 ## Travel & Accommodations
 
