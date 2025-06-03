@@ -35,7 +35,7 @@ picnic on Saturday (7/5) with whoever is still around and wants to come.
 
 The wedding will run from mid-afternoon into the evening, with dinner and cake
 provided. Check [the
-weather](https://www.accuweather.com/en/us/berkeley/94704/daily-weather-forecast/332044?day=32)!
+weather](https://www.accuweather.com/en/us/berkeley/94704/daily-weather-forecast/332044)!
 It can go from quite hot during the day to cool at night. We recommend lighter
 clothing and bringing a jacket. The venue has both indoor and outdoor parts and
 we'll move between them.
@@ -145,10 +145,16 @@ Dressy casual.
 | <span style="font-size: 2em;">🇮🇳</span> | - Indian kurta pajama <br/> - Salwar Kameez |
 | <span style="font-size: 2em;">🇺🇸</span> | - Shirt & jeans <br/> - Collared shirt & pants <br/> - Dress |
 
-### 🧺☀️🍷<br/>Picnic (Unofficial)
+### 🧺☀️🍷<br/>Picnic (Casual)
 ###### **7/5/2025**
 ###### 11:00 am \- 3:00 pm
 ###### [Cragmont Rock Park](https://maps.app.goo.gl/AuwZqEi6EHYFj8p8A), Berkeley, CA
+
+##### How to get there
+We recommend taking an uber from the Downtown Berkeley bart station or carpool.
+
+##### Food
+We will provide pastries & coffee, bring any other treats you want to share.
 
 ##### Vibe
 Casual.
@@ -200,7 +206,9 @@ There will be one! Probably in Jan or Feb 2026. We're figuring out the details a
 
 #### What if I want to give you guys a non-book gift? Do you have a registry?
 
-Thank you, you dreamy person. We have no registry. If you are so moved, you could donate to one of these two organizations in our names:
+Thank you, you dreamy person. We have no registry. If you are so moved, you
+could donate to one of these two organizations in our names. Drop us a note if
+you decide to do that!
 
 | Charity | Why we picked it |
 | :---- | :---- |
