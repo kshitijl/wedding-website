@@ -50,7 +50,9 @@ accompanied by K talking about the local geology -- leaves at 5pm.
 
 ##### Where to park
 
-The venue has a dedicated parking lot that fits about 15 cars. [Link](https://www.ebparks.org/reservations/event-venues/beach-house)
+The venue has a dedicated parking lot that fits about 15 cars
+([link](https://www.ebparks.org/reservations/event-venues/beach-house)), and
+there's also an overflow parking lot that's shared with the public.
 
 ##### Event schedule
 
@@ -151,7 +153,7 @@ Dressy casual.
 ###### [Cragmont Rock Park](https://maps.app.goo.gl/AuwZqEi6EHYFj8p8A), Berkeley, CA
 
 ##### How to get there
-We recommend taking an uber from the Downtown Berkeley bart station or carpool.
+We recommend taking an Uber from the Downtown Berkeley BART station or carpool.
 
 ##### Food
 We will provide pastries & coffee, bring any other treats you want to share.
@@ -173,7 +175,7 @@ We recommend you get an AirBnb. If you're worried about finding a place to stay,
 
 ## Color Palette
 
-If u wanna be _on-brand_ on brand.
+If you wanna be _on-brand_ on brand.
 
 ![](./image1.png)
 
