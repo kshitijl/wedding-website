@@ -5,14 +5,24 @@ layout: default-layout.njk
 
 
 <span class="heart-hover-image">![](./IMG_3.jpeg)</span>
-## Wedding Details For Friends
 
-Hello\! Here is some info for our upcoming NUPTIALS. This document will continue to be updated.
+## RSVP!
+
+Please fill out [this form](https://forms.gle/gkEnJbgXrAirQJyK9) to tell us
+which events you're coming to and what you're doing for Sangeet!
+
+## Wedding Details For Friends and Family
+
+Hello\! Here is some info for our upcoming NUPTIALS. This document will continue
+to be updated.
 
 The "formal events" are  on 7/3 & 7/4, with additional casual hangs all weekend. See schedule below.
 
 ## Events
-We'll be hanging around all weekend and dream of spontaneous hangs and get-togethers. We're dreaming of a saturday (7/5) picnic with whoever is still around. Maybe a trip to a brewery, who knows\! We imagine a world where folks are proposing and arranging their own events or explorations. The Bay 🌁 has so much to offer 💜.
+
+Aside from the main events on 7/3 and 7/4, we'll be hanging around all weekend
+and dream of spontaneous hangs and get-togethers. An informal Saturday (7/5)
+picnic with whoever is still around.
 
 ### High level Calendar
 
@@ -20,7 +30,7 @@ We'll be hanging around all weekend and dream of spontaneous hangs and get-toget
 | :---- | :---- | :---- |
 | **7/3/2025** 4pm - 10pm | 👰🏾‍♀️🤵🏾‍♂️ Wedding   | [Temescal Beach House](https://www.ebparks.org/reservations/event-venues/beach-house), Oakland CA  |
 | **7/4/2025** 6pm - 10pm | 🎭 Sangeet aka A Friend Talent Show |  [Live Oak Community Center](https://g.co/kgs/BzkusMH), Berkeley CA |
-| **7/5/2025** 11am - 3pm | 🧺☀️🍷 Picnic\! (unofficial)  | Cragmont Park, Berkeley, CA |
+| **7/5/2025** 11am - 3pm | 🧺☀️🍷 Picnic\! (casual)  | [Cragmont Park](https://maps.app.goo.gl/AuwZqEi6EHYFj8p8A), Berkeley, CA |
 
 ![](./IMG_1791.jpeg)
 
@@ -36,7 +46,31 @@ provided. It will be potentially quite HOT, so lighter dress \+ a jacket is
 recommended. The temperatures in the Bay can drop dramatically in the evening.
 Indoor & outdoor venue.
 
+##### What to bring
+2 copies of a book! See “Books as Gifts 📖” below.
+
+##### When to arrive
+
+Aim to arrive around 4.30pm. The Baraat -- a walk around the lake, perhaps
+accompanied by K talking about the local geology -- leaves at 5pm.
+
+##### Where to park
+
+The venue has a dedicated parking lot that fits about 15 cars. [Link](https://www.ebparks.org/reservations/event-venues/beach-house)
+
+##### Event schedule
+
+| When         | What                        |
+| :----------- | :-------------------------- |
+| 4:30pm         | Arrival                     |
+| 5:00pm         | Walk around lake (Baraat)   |
+| 5:45pm         | Ceremony                    |
+| 6:00pm – 6:30pm  | Book swap           |
+| 6:30pm – 8:00pm  | Dinner/ Speeches / Cake     |
+| 8:00pm – 10:00pm | Dancing                     |
+
 ##### Vibe
+
 Summery, floral, cocktail  party vibes.
 
 ##### Dress suggestion
@@ -46,11 +80,65 @@ Summery, floral, cocktail  party vibes.
 | <span style="font-size: 2em;">🇮🇳</span> | - Indian kurta pajama <br/> - Salwar Kameez <br/> - Lehenga |
 | <span style="font-size: 2em;">🇺🇸</span> | - A suit <br/> - Collared shirt & pants <br/> - Dress |
 
+##### What is a Baraat?
+
+My own experience of Baraats is this. The groom gets on a horse, or perhaps a
+chariot or an elephant if his father is rich. He is joined on his mount by a
+small child. Around the horse, on the ground, is a very loud brass band in
+uniform. Right behind are all his friends and family, dancing. The whole
+procession goes on the street. Cars honk, motorcycles swerve, the group moves
+slowly forward, continually dancing and singing, all accompanied by the band.
+They enter the wedding venue and are met by the girl's family. Then: greetings
+given, garlands exchanged, snacks served.
+
+Ours will be the same but with no horse, no chariot, no elephant, no band, no
+dancing, no street, no cars, and no motorcycles.
+
+Click [here](https://en.wikipedia.org/wiki/Baraat) to see what Wikipedia has to say.
+
 ### 🎭<br/>Sangeet
-###### _aka A Friend Talent Show_
+###### _aka Show and Tell, or, a Friend Talent Show_
 ###### **7/4/2025**
 ###### _6:00 pm \- 10:00 pm_
 ###### [Live Oak Community Center](https://g.co/kgs/BzkusMH), Berkeley CA
+
+#### Sangeet FAQ
+##### What is a Sangeet?
+
+A Sangeet (_Sung Together_ from Sanskrit) traditionally occurs before the
+wedding and is a time for friends and family to join together for song and
+dancing. We’re adapting it to be a kind of Show and Tell on the theme of Love,
+Change and Leaps of Faith.
+
+##### Who is the talent?
+You. You are the talent.
+
+##### What are examples of things people are doing?
+For example:
+
+- The groom will share his Apple Notes (48 and growing) about the bride.
+- A close friend will sing a song on guitar about remembering loved ones who
+  have passed.
+- The bride and groom will demonstrate their commitment to *carrying* each other
+  through hard times.
+- There will be a game that pits the bride's friends against the groom’s.
+- Our friend Nolen (hi!) will juggle. Well we haven't asked him yet but we hope
+  he will perform this Leap of Faith with gravity.
+
+##### When to arrive
+We’ll start the show at 6:30pm and eat around 7pm.
+
+##### How to get there
+You can BART to Downtown Berkeley and take 18 or 67 bus, or uber from there. Keep in mind it will be July 4!
+
+##### Where to park
+Live Oak Community Center  does not have onsite parking, so you will need to find street parking if you’re driving.
+
+##### What to bring
+Whatever you need for your show and tell!
+
+##### Food
+We’ll provide a casual dinner (probably pizza) and nonalcoholic beverages (the venue is alcohol free).
 
 ##### Vibe
 Dressy casual.
@@ -75,7 +163,6 @@ Casual.
 Literally anything.
 
 
-
 ## Travel & Accommodations
 
 ##### Flying
@@ -92,37 +179,32 @@ If u wanna be on brand on brand.
 
 ## Books As Gifts 📖
 
-Everyone does love gifts. Here is what we'd *love* from you.
+Everyone loves gifts. Here is what we'd *love* from you.
 
-Pick 1 book that has either:
+Bring TWO copies of ONE book that has either:
 
 * Taught you something about being a good person, or
 * Taught you something about leading a good life.
 
-Include notes on why you picked what you did.
+Include a note or inscription inside both copies of the book explaining why you
+picked it.
 
-Bring TWO copies.
-
-One will find a new home on K\&M's wedding book shelf and the other will go into
-a swap pile at our Sangeet. You'll get to go home with a book 💜.
+One copy will find a new home on K\&M's wedding book shelf and the other will go
+into a swap pile at our Sangeet. You'll get to go home with a book 💜.
 
 ## FAQs
 
-Text us and we'll add to this section.
+More Qs? Text us and we'll add to this section.
 
 #### Do I have to come to every event?
 
-No. But tell us if you're coming to the wedding so we have your headcount for the caterer.
+No. But please RSVP (especially to the wedding) so we have enough food for everyone!
 
 #### What about the India wedding?
 
 There will be one! Probably in Jan or Feb 2026. We're figuring out the details and will reach out soon.
 
-#### Who will sing at Sangeet? Who is the talent?
-
-You. You are the talent. You will hear from us soon.
-
-#### What if I want to give you guys a non-book gift, do you have a registry?
+#### What if I want to give you guys a non-book gift? Do you have a registry?
 
 Thank you, you dreamy person. We have no registry. If you are so moved, you could donate to one of these two organizations in our names:
 
