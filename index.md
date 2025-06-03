@@ -192,7 +192,7 @@ Include a note or inscription inside both copies of the book explaining why you
 picked it.
 
 One copy will find a new home on K\&M's wedding book shelf and the other will go
-into a swap pile at our Sangeet. You'll get to go home with a book 💜.
+into a swap pile at our Wedding. You'll get to go home with a book 💜.
 
 ## FAQs
 
