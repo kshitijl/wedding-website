@@ -3,7 +3,6 @@ layout: default-layout.njk
 ---
 # **Meghna x Kshitij  1.0**
 
-
 <span class="heart-hover-image">![](./IMG_3.jpeg)</span>
 
 ## RSVP!
@@ -173,7 +172,7 @@ We recommend you get an AirBnb. If you're worried about finding a place to stay,
 
 ## Color Palette
 
-If u wanna be on brand on brand.
+If u wanna be _on-brand_ on brand.
 
 ![](./image1.png)
 
@@ -198,7 +197,7 @@ More Qs? Text us and we'll add to this section.
 
 #### Do I have to come to every event?
 
-No. But please RSVP (especially to the wedding) so we have enough food for everyone!
+No. But please [RSVP](https://forms.gle/gkEnJbgXrAirQJyK9) (especially to the wedding) so we have enough food for everyone!
 
 #### What about the India wedding?
 
