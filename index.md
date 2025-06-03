@@ -10,18 +10,11 @@ layout: default-layout.njk
 Please fill out [this form](https://forms.gle/gkEnJbgXrAirQJyK9) to tell us
 which events you're coming to and what you're doing for Sangeet!
 
-## Wedding Details For Friends and Family
-
-Hello\! Here is some info for our upcoming NUPTIALS. This document will continue
-to be updated.
-
-The "formal events" are  on 7/3 & 7/4, with additional casual hangs all weekend. See schedule below.
-
 ## Events
 
-Aside from the main events on 7/3 and 7/4, we'll be hanging around all weekend
-and dream of spontaneous hangs and get-togethers. An informal Saturday (7/5)
-picnic with whoever is still around.
+The "formal events" are on 7/3 & 7/4. Outside those we'll be hanging around all
+weekend and dream of spontaneous hangs and get-togethers. There will be a casual
+picnic on Saturday (7/5) with whoever is still around and wants to come.
 
 ### High level Calendar
 
