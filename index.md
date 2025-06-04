@@ -48,6 +48,10 @@ we'll move between them.
 Aim to arrive around 4.30pm. The Baraat -- a walk around the lake, perhaps
 accompanied by K talking about the local geology -- leaves at 5pm.
 
+##### How to get there
+
+You can drive or Uber.
+
 ##### Where to park
 
 The venue has a dedicated parking lot that fits about 15 cars
@@ -124,8 +128,9 @@ You. You are the talent.
 We’ll start the show at 6:30pm and eat around 7pm.
 
 ##### How to get there
-You can BART to Downtown Berkeley and take the 18 or 67 bus, or Uber from there.
-Keep in mind it will be July 4!
+If you're in East Bay or San Francisco, you can Uber directly or you can take
+BART to Downtown Berkeley. From there take the 18 or 67 bus, or Uber. Keep in
+mind it will be July 4!
 
 ##### Where to park
 Live Oak Community Center does not have onsite parking, so you will need to find
@@ -169,6 +174,9 @@ Literally anything.
 
 ##### Flying
 The closest airports are SFO and OAK. You can take the BART to Berkeley from either.
+
+##### Getting around
+It's easy to get around with Uber and BART, so you don't need to rent a car unless you really want to.
 
 ##### Lodging
 We recommend you get an AirBnb. If you're worried about finding a place to stay, hit us up and we'll find a way to house you\!
