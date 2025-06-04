@@ -84,6 +84,8 @@ The closest airports are SFO and OAK. You can take the BART to Berkeley from eit
 ##### Lodging
 We recommend you get an AirBnb. If you're worried about finding a place to stay, hit us up and we'll find a way to house you\!
 
+<iframe src="https://www.google.com/maps/d/embed?mid=1AzgdRsbt6KYKCnnLI-brPKDLTNSzFbM&ehbc=2E312F" width="640" height="480"></iframe>
+
 ## Color Palette
 
 If u wanna be on brand on brand.
