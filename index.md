@@ -41,7 +41,7 @@ clothing and bringing a jacket. The venue has both indoor and outdoor parts and
 we'll move between them.
 
 ##### What to bring
-2 copies of a book! See “Books as Gifts 📖” below.
+2 copies of a book! See "Books as Gifts 📖" below.
 
 ##### When to arrive
 
@@ -107,7 +107,7 @@ Click [here](https://en.wikipedia.org/wiki/Baraat) to see what Wikipedia has to 
 
 A Sangeet (_Sung Together_ from Sanskrit) traditionally occurs before the
 wedding and is a time for friends and family to join together for song and
-dance. We’re adapting it to be a Show and Tell on the theme of Love, Change and
+dance. We're adapting it to be a Show and Tell on the theme of Love, Change and
 Leaps of Faith.
 
 ##### Who is the talent?
@@ -120,12 +120,12 @@ You. You are the talent.
   have passed.
 - The bride and groom will demonstrate their commitment to *carrying* each other
   through hard times.
-- There will be a game that pits the bride's friends against the groom’s.
+- There will be a game that pits the bride's friends against the groom's.
 - Our friend Nolen (hi!) will juggle. Well we haven't asked him yet but we hope
   he will perform this Leap of Faith with gravity.
 
 ##### When to arrive
-We’ll start the show at 6:30pm and eat around 7pm.
+We'll start the show at 6:30pm and eat around 7pm.
 
 ##### How to get there
 If you're in East Bay or San Francisco, you can Uber directly or you can take
@@ -134,13 +134,13 @@ mind it will be July 4!
 
 ##### Where to park
 Live Oak Community Center does not have onsite parking, so you will need to find
-street parking if you’re driving.
+street parking if you're driving.
 
 ##### What to bring
 Whatever you need for your show and tell!
 
 ##### Food
-We’ll provide a casual dinner (probably pizza) and nonalcoholic beverages (the venue is alcohol free).
+We'll provide a casual dinner (probably pizza) and nonalcoholic beverages (the venue is alcohol free).
 
 ##### Vibe
 Dressy casual.
@@ -188,6 +188,13 @@ We recommend you get an AirBnb. If you're worried about finding a place to stay,
 If you wanna be _on-brand_ on brand.
 
 ![](./image1.png)
+
+## Spotify Playlist 👩🏾‍🎤🪩
+Contribute to our spotify dance playlist. We are the djs and we need your help. 
+
+<a href="https://open.spotify.com/playlist/201epROj2lysmoitbYMajw?si=0bd0bc88f5f1480c&pt=fdf4d82a22d4efefe339c92120fe047f" > Add some tracks </a>
+
+<img src="kdances.gif" alt="Kshitij dancing" style="width: 100%; max-width: 320px; margin-top: 1em;">
 
 ## Books As Gifts 📖
 
