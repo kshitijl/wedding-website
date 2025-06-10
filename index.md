@@ -181,6 +181,13 @@ It's easy to get around with Uber and BART, so you don't need to rent a car unle
 ##### Lodging
 We recommend you get an AirBnb. If you're worried about finding a place to stay, hit us up and we'll find a way to house you\!
 
+##### Map
+
+Here's a map with:
+* locations where the events are happening
+* M's favorite restaurants, and
+* where we think it would be good to get an AirBnb (the purple regions)
+
 <iframe src="https://www.google.com/maps/d/embed?mid=1AzgdRsbt6KYKCnnLI-brPKDLTNSzFbM&ehbc=2E312F" width="640" height="480"></iframe>
 
 ## Color Palette
