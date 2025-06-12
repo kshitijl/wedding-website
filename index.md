@@ -222,6 +222,11 @@ into a swap pile at our Wedding. You'll get to go home with a book 💜.
 
 More Qs? Text us and we'll add to this section.
 
+#### Can my kids come?
+
+Yes! Children are welcome! Mother Nature put the wiggle in children, so don't
+feel like you have to suppress it at our event.
+
 #### Do I have to come to every event?
 
 No. But please [RSVP](https://forms.gle/gkEnJbgXrAirQJyK9) (especially to the wedding) so we have enough food for everyone!
