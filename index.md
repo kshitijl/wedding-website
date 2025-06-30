@@ -199,7 +199,7 @@ If you wanna be _on-brand_ on brand.
 ## Spotify Playlist 👩🏾‍🎤🪩
 Contribute to our spotify dance playlist. We are the djs and we need your help. 
 
-<a href="https://open.spotify.com/playlist/201epROj2lysmoitbYMajw?si=0bd0bc88f5f1480c&pt=fdf4d82a22d4efefe339c92120fe047f" > Add some tracks </a>
+<a href="https://open.spotify.com/playlist/201epROj2lysmoitbYMajw?si=cca80bfd3f9e4779&pt=5ac37b0fc044e44ebbdbc0c59e02e89a" > Add some tracks </a>
 
 <img src="kdances.gif" alt="Kshitij dancing" style="width: 100%; max-width: 320px; margin-top: 1em;">
 
