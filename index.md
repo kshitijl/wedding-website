@@ -21,7 +21,7 @@ picnic on Saturday (7/5) with whoever is still around and wants to come.
 | When                       | What           | Where |
 | :---- | :---- | :---- |
 | **7/3/2025** 4pm - 10pm | 👰🏾‍♀️🤵🏾‍♂️ Wedding   | [Temescal Beach House](https://www.ebparks.org/reservations/event-venues/beach-house), Oakland CA  |
-| **7/4/2025** 6pm - 10pm | 🎭 Sangeet aka Show and Tell |  [Live Oak Community Center](https://g.co/kgs/BzkusMH), Berkeley CA |
+| **7/4/2025** 6pm - 10pm | 🎭 Sangeet aka Show and Tell |  [Live Oak Community Center](https://maps.app.goo.gl/xYpbKukNdbr5NUtE6?g_st=ipc), Berkeley CA |
 | **7/5/2025** 11am - 3pm | 🧺☀️🍷 Picnic\! (casual)  | [Cragmont Rock Park](https://maps.app.goo.gl/AuwZqEi6EHYFj8p8A), Berkeley, CA |
 
 ![](./IMG_1791.jpeg)
@@ -100,7 +100,7 @@ Click [here](https://en.wikipedia.org/wiki/Baraat) to see what Wikipedia has to 
 ###### _aka Show and Tell, or, a Friend Talent Show_
 ###### **7/4/2025**
 ###### _6:00 pm \- 10:00 pm_
-###### [Live Oak Community Center](https://g.co/kgs/BzkusMH), Berkeley, CA
+###### [Live Oak Community Center](https://maps.app.goo.gl/xYpbKukNdbr5NUtE6?g_st=ipc), Berkeley, CA
 
 #### Sangeet FAQ
 ##### What is a Sangeet?
