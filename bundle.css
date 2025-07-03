@@ -334,7 +334,58 @@ label, legend, fieldset {
 }
 
 #side-panel-nav a:hover {
-  background-color: #e0e0e0;
   color: var(--hover-accent-color);
-  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Details Card Styles */
+.details-card {
+  background: linear-gradient(135deg, #fff5f8 0%, #ffe6f2 100%);
+  border: 1px solid rgba(174, 33, 89, 0.2);
+  border-radius: 20px;
+  padding: 2.5rem;
+  margin: 2rem 0 3rem 0;
+  box-shadow: 
+    0 2px 8px rgba(174, 33, 89, 0.08),
+    0 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.details-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  border-radius: 20px;
+  pointer-events: none;
+}
+
+.card-title {
+  color: var(--accent-color);
+  font-size: 2em;
+  font-style: normal; 
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.card-content {
+  color: #330216;
+  font-size: 1.1em;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+
+.card-content p {
+  margin: 0;
+  text-align: center;
+  opacity: 0.8;
 }

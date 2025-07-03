@@ -3,6 +3,82 @@ layout: default-layout.njk
 ---
 # **Meghna x Kshitij  1.0**
 
+<div class="details-card">
+  <h1 class="card-title">Today: 👰🏾‍♀️🤵🏾‍♂️ Wedding</h1>
+  <div class="card-content">
+    <div class="info-section">
+      <h4 class="section-header">📍 Time and Place</h4>
+      <ul class="info-list">
+        <li><strong>Venue:</strong> Temescal Beach House, at Temescal Regional Recreation Area, 6500 Broadway, Oakland, CA 94618</li>
+        <li><strong>Arrive:</strong> 4:30pm, we will take a short walk at 5pm</li>
+        <li><strong>Google Maps:</strong> <a href="https://maps.app.goo.gl/EYqpNPBQuh2G5VFg8" target="_blank">Venue Location</a></li>
+        <li><strong>Parking:</strong> <a href="https://maps.app.goo.gl/4E5nuzoPmTZMYCou9" target="_blank">Reserved Lot</a> (if full, use <a href="https://maps.app.goo.gl/w9DqjxVKBDdCRqjr6" target="_blank">Public Lot</a>)</li>
+      </ul>
+    </div>
+
+    <div class="info-section">
+      <h4 class="section-header">🥻 Clothing</h4>
+      <ul class="info-list">
+        <li>Wear shoes you can walk and dance in; there will be ~15min of walking on a paved path on the side of the lake, and there will be dancing 💃🏽🕺🏾</li>
+        <li>Bring a warm jacket because the temperature will drop in the evening 🥶</li>
+      </ul>
+    </div>
+
+    <div class="info-section">
+      <h4 class="section-header">🌤️ Weather</h4>
+      <ul class="info-list">
+        <li>High of 68°F at 4:30pm</li>
+        <li>Gets down to 55°F at 10pm 🥶</li>
+        <li><strong>Bring WARM clothes!</strong></li>
+      </ul>
+    </div>
+
+    <div class="info-section">
+      <h4 class="section-header">📖 Book Swap</h4>
+      <ul class="info-list">
+        <li>Inscribe one of the copies of your book with your name and a message for us</li>
+        <li>Bring your books to the Book Table on the patio outdoors. Put our copy between the bookends. Put the other copy in the guest pile</li>
+        <li>After the ceremony, book swap! Pick a copy of a book from another guest</li>
+      </ul>
+    </div>
+
+    <div class="info-section">
+      <h4 class="section-header">📸 Guest Book</h4>
+      <ul class="info-list">
+        <li>Also after the ceremony, instax guestbook! Take a picture using one of the instax cameras, put it in the album and write a lil message for us!</li>
+      </ul>
+    </div>
+
+    <div class="info-section">
+      <h4 class="section-header">🎬 CrowdCam</h4>
+      <ul class="info-list">
+        <li>We'll have an old school video camera we're passing around, grab it when you see it and start recording stuff 🎬</li>
+      </ul>
+    </div>
+
+    <div class="info-section">
+      <h4 class="section-header">⏰ Schedule</h4>
+      <ul class="info-list schedule-list">
+        <li><strong>5:00pm</strong> Lake walk leaves</li>
+        <li><strong>5:45pm</strong> Ceremony</li>
+        <li><strong>6:25pm</strong> Appetizers</li>
+        <li><strong>7:00pm</strong> Dinner</li>
+        <li><strong>7:15pm</strong> Speeches</li>
+        <li><strong>8:15pm</strong> Dancing starts</li>
+        <li><strong>8:45pm</strong> Cake</li>
+        <li><strong>9:45pm</strong> Late night snack</li>
+        <li><strong>10:45pm</strong> Last call and final song</li>
+       
+      </ul>
+    </div>
+
+    <div class="info-section">
+      <h4 class="section-header">💌 Questions?</h4>
+      <p class="contact-note">If you have questions tomorrow, we might be busy. Please text the WhatsApp group and someone will reply 💌</p>
+    </div>
+  </div>
+</div>
+
 <span class="heart-hover-image">![](./IMG_3.jpeg)</span>
 
 ## RSVP!
@@ -20,7 +96,7 @@ picnic on Saturday (7/5) with whoever is still around and wants to come.
 
 | When                       | What           | Where |
 | :---- | :---- | :---- |
-| **7/3/2025** 4pm - 10pm | 👰🏾‍♀️🤵🏾‍♂️ Wedding   | [Temescal Beach House](https://www.ebparks.org/reservations/event-venues/beach-house), Oakland CA  |
+| **7/3/2025** 4:30pm - 10:45pm | 👰🏾‍♀️🤵🏾‍♂️ Wedding   | [Temescal Beach House](https://www.ebparks.org/reservations/event-venues/beach-house), Oakland CA  |
 | **7/4/2025** 6pm - 10pm | 🎭 Sangeet aka Show and Tell |  [Live Oak Community Center](https://maps.app.goo.gl/xYpbKukNdbr5NUtE6?g_st=ipc), Berkeley CA |
 | **7/5/2025** 11am - 3pm | 🧺☀️🍷 Picnic\! (casual)  | [Cragmont Rock Park](https://maps.app.goo.gl/AuwZqEi6EHYFj8p8A), Berkeley, CA |
 
@@ -28,7 +104,7 @@ picnic on Saturday (7/5) with whoever is still around and wants to come.
 
 ### 👰🏾‍♀️🤵🏾‍♂️<br/>Wedding
 ###### **7/3/2025**
-###### _4:00pm – 10:00pm_
+###### _4:30pm – 10:45pm_
 ###### [Temescal Beach House](https://www.ebparks.org/reservations/event-venues/beach-house), Oakland, CA
 
 <br/>
@@ -45,8 +121,7 @@ we'll move between them.
 
 ##### When to arrive
 
-Aim to arrive around 4.30pm. The Baraat -- a walk around the lake, perhaps
-accompanied by K talking about the local geology -- leaves at 5pm.
+Aim to arrive around 4.30pm. The Baraat -- a walk around the lake leaves at 5pm.
 
 ##### How to get there
 
