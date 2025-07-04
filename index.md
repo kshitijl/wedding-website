@@ -4,80 +4,90 @@ layout: default-layout.njk
 # **Meghna x Kshitij  1.0**
 
 <div class="details-card">
-  <h1 class="card-title">Today: 👰🏾‍♀️🤵🏾‍♂️ Wedding</h1>
+  <h1 class="card-title">Today: 🎶🎭 Sangeet</h1>
   <div class="card-content">
     <div class="info-section">
       <h4 class="section-header">📍 Time and Place</h4>
       <ul class="info-list">
-        <li><strong>Venue:</strong> Temescal Beach House, at Temescal Regional Recreation Area, 6500 Broadway, Oakland, CA 94618</li>
-        <li><strong>Arrive:</strong> 4:30pm, we will take a short walk at 5pm</li>
-        <li><strong>Google Maps:</strong> <a href="https://maps.app.goo.gl/EYqpNPBQuh2G5VFg8" target="_blank">Venue Location</a></li>
-        <li><strong>Parking:</strong> <a href="https://maps.app.goo.gl/4E5nuzoPmTZMYCou9" target="_blank">Reserved Lot</a> (if full, use <a href="https://maps.app.goo.gl/w9DqjxVKBDdCRqjr6" target="_blank">Public Lot</a>)</li>
+        <li><strong>Venue:</strong> <a href="https://maps.app.goo.gl/xYpbKukNdbr5NUtE6?g_st=ipc">Live Oak Community Center</a>, Berkeley CA </li>
+        <li><strong>Arrive:</strong> 6:00pm-ish. We get the keys at 6 and family will be setting up for the first 15min or so. Pizza arrives at 6:15pm.</li>
+        <li><strong>Parking:</strong> No onsite parking, so you will need to find street parking if you're driving.</li>
       </ul>
+    </div>
+    
+    <div class="info-section">
+      <h4 class="section-header">The Show</h4>
+  <a href="https://docs.google.com/spreadsheets/d/1o1eZwUjtRrD-HzKCPXol7t2pimZ18hqhdsw_wgzwOFU/edit?usp=sharing">Sign up!</a> Or just check out what's happening.
     </div>
 
     <div class="info-section">
       <h4 class="section-header">🥻 Clothing</h4>
-      <ul class="info-list">
-        <li>Wear shoes you can walk and dance in; there will be ~15min of walking on a paved path on the side of the lake, and there will be dancing 💃🏽🕺🏾</li>
-        <li>Bring a warm jacket because the temperature will drop in the evening 🥶</li>
-      </ul>
+      Today is all indoors! But probably still bring a warm jacket 🥶
     </div>
+    
 
-    <div class="info-section">
-      <h4 class="section-header">🌤️ Weather</h4>
-      <ul class="info-list">
-        <li>High of 68°F at 4:30pm</li>
-        <li>Gets down to 55°F at 10pm 🥶</li>
-        <li><strong>Bring WARM clothes!</strong></li>
-      </ul>
-    </div>
 
     <div class="info-section">
       <h4 class="section-header">📖 Book Swap</h4>
       <ul class="info-list">
-        <li>Inscribe one of the copies of your book with your name and a message for us</li>
-        <li>Bring your books to the Book Table on the patio outdoors. Put our copy between the bookends. Put the other copy in the guest pile</li>
-        <li>After the ceremony, book swap! Pick a copy of a book from another guest</li>
+        <li>Find the person whose book you took home last night, and go talk to them! The table is below.</li>
+        <li>If you forgot to take a book, pick one from the pile at the venue.</li>
       </ul>
-    </div>
-
-    <div class="info-section">
-      <h4 class="section-header">📸 Guest Book</h4>
-      <ul class="info-list">
-        <li>Also after the ceremony, instax guestbook! Take a picture using one of the instax cameras, put it in the album and write a lil message for us!</li>
-      </ul>
-    </div>
-
-    <div class="info-section">
-      <h4 class="section-header">🎬 CrowdCam</h4>
-      <ul class="info-list">
-        <li>We'll have an old school video camera we're passing around, grab it when you see it and start recording stuff 🎬</li>
-      </ul>
-    </div>
-
-    <div class="info-section">
-      <h4 class="section-header">⏰ Schedule</h4>
-      <ul class="info-list schedule-list">
-        <li><strong>5:00pm</strong> Lake walk leaves</li>
-        <li><strong>5:45pm</strong> Ceremony</li>
-        <li><strong>6:25pm</strong> Appetizers</li>
-        <li><strong>7:00pm</strong> Dinner</li>
-        <li><strong>7:15pm</strong> Speeches</li>
-        <li><strong>8:15pm</strong> Dancing starts</li>
-        <li><strong>8:45pm</strong> Cake</li>
-        <li><strong>9:45pm</strong> Late night snack</li>
-        <li><strong>10:45pm</strong> Last call and final song</li>
-       
-      </ul>
-    </div>
-
-    <div class="info-section">
-      <h4 class="section-header">💌 Questions?</h4>
-      <p class="contact-note">If you have questions tomorrow, we might be busy. Please text the WhatsApp group and someone will reply 💌</p>
     </div>
   </div>
 </div>
+
+## The LOOT
+
+Getting married is SICK. We got so many books. More than a birthday. Even more
+than first day of college! Wow. By reading these books we are going to become so
+good and so wise. Like mega-brains 🧠. Thank you for these books. Except you,
+Aaron. We don't look forward to taking your gift on the flight to New York.
+
+| who gave                        | book                                              | author                                            |
+|---------------------------------|---------------------------------------------------|---------------------------------------------------|
+| aaron                           | the anarchist cookbook                            | william powell                                    |
+| aditi                           | toot & puddle                                     | holly hobbie                                      |
+| alex                            | still life with woodpecker                        | tom robbins                                       |
+| allie                           | a manual for cleaning women                       | lucia berlin                                      |
+| andrew                          | daytripper                                        | fábio moon and gabriel bá                         |
+| antonia and connor              | the thousand autumns of jacob de zoet             | david mitchell                                    |
+| anya                            | welcome to the hyunam-dong bookshop               | hwang bo-reum                                     |
+| archana                         | the miracle of mindfulness                        | thich nhat hanh                                   |
+| brian                           | the anthropocene reviewed                         | john green                                        |
+| chai                            | be here now                                       | ramdas                                            |
+| chinmaya                        | mastery                                           | robert green                                      |
+| chris                           | the mezzanine                                     | nicholson baker                                   |
+| cormac                          | the art of gathering                              | priya parker                                      |
+| dylan                           | the diamond age                                   | neal stephenson                                   |
+| ekin                            | giraffes can't dance                              | giles andreae and guy parker-rees                 |
+| elise                           | notes from a small island                         | bill bryson                                       |
+| esin                            | what to cook when you don't feel like cooking     | caroline chambers                                 |
+| esin, efe and ekin              | a philosophy of walking                           | frédéric gros                                     |
+| ilona                           | they can't kill us until they kill us             | hanif abdurraqib                                  |
+| isabel & manny                  | we both laughed in pleasure                       | lou sullivan, edited by elis martin and zach ozma |
+| julia                           | laziness does not exist                           | devon price                                       |
+| karen & cam                     | the essential calvin and hobbes                   | bill watterson                                    |
+| manny & isabel                  | prison writings                                   | leonard peltier                                   |
+| manu lauria (groom's father)    | jonathan livingston seagull                       | richard bach                                      |
+| meera                           | all about love                                    | bell hooks                                        |
+| mel                             | the giving tree                                   | shel silverstein                                  |
+| monica                          | are we smart enough to know how smart animals are | frans de waal                                     |
+| morgan                          | into the wild                                     | jon krakauer                                      |
+| naina                           | gilead                                            | marilynne robinson                                |
+| nidhi lauria (groom's mother)   | why good things happen to good people             | stephen post and jill neimark                     |
+| nolen                           | i, claudius                                       | robert graves                                     |
+| piyush                          | karma                                             | sadhguru                                          |
+| rachel                          | they can't kill us until they kill us             | hanif abdurraqib                                  |
+| rajiv dholakia (bride's father) | it's easier than you think                        | sylvia boorstein                                  |
+| sara                            | to be taught, if fortunate                        | becky chambers                                    |
+| sean                            | the body keeps the score                          | bessel van der kolk                               |
+| smita joshi (bride's mother)    | 1491                                              | charles c. mann                                   |
+| stefan                          | musicophilia                                      | oliver sacks                                      |
+| tania, andrew and miles         | art book of love (and others in box set)          | shana gozansky                                    |
+| viktoria                        | imaginable                                        | jane mcgonigal                                    |
+| zach                            | the wide, wide sea                                | hampton sides                                     |
+
 
 <span class="heart-hover-image">![](./IMG_3.jpeg)</span>
 
