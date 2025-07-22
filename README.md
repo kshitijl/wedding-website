@@ -20,3 +20,5 @@ pipeline: you push to github, and Cloudflare runs the build step (`npx
 To build and/or deploy manually, run those commands yourself in the terminal
 (but deployment probably won't work unless you're KL, because you don't have the
 Cloudflare authorization).
+
+Bye!
