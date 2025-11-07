@@ -3,6 +3,8 @@ layout: default-layout.njk
 ---
 # **Meghna x Kshitij  1.0**
 
+Whoa what's happening now???
+
 <div class="details-card">
   <h1 class="card-title">Today: 🎶🎭 Sangeet</h1>
   <div class="card-content">
