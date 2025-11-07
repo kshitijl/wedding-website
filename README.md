@@ -2,6 +2,10 @@
 
 [Here](https://meghnaandkshitij.us).
 
+# Use the `justfile`
+
+All the commands below are in the `justfile`, so use that instead of typing them out.
+
 # How to make and preview changes
 
 Edit `index.md` or `bundle.css`. In another terminal windown, run `npx
