@@ -1,8 +1,11 @@
 default:
     @just --list
 
-deploy: build
+deploy-from-local: build
     npx wrangler deploy
+
+deploy:
+    git push
 
 serve-locally:
     npx @11ty/eleventy --serve
