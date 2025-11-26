@@ -7,13 +7,17 @@ title: MEGHNA AND KSHITIJ GETTING MARRIED WAHOOOOO WE DID IT we did it wow
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if pageStyle == "india" %}
+    <link rel="stylesheet" href="/india.css">
+    {% else %}
     <link rel="stylesheet" href="/bundle.css">
+    {% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
     <title>{{ title }}</title>
   </head>
-  <body>
+  <body data-page-style="{{ pageStyle }}">
     <button class="hamburger-menu" aria-label="Open navigation menu" aria-expanded="false" aria-controls="side-panel">
       <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none">
         <path d="M3 18V16H21V18H3ZM3 13V11H21V13H3ZM3 8V6H21V8H3Z" fill="#002654"/>

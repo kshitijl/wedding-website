@@ -48,33 +48,51 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   }
 
-  // Populate side panel with H2 links
-  const headings = document.querySelectorAll("h2");
-  console.log("Found H2 headings:", headings.length);
-  headings.forEach((heading, index) => {
-    // Ensure heading has an ID, or create one
-    if (!heading.id) {
-      heading.id = `h2-section-${index}`;
-    }
-    const link = document.createElement("a");
-    link.href = `#${heading.id}`;
-    link.textContent = heading.textContent || `Section ${index + 1}`; // Fallback text
-    if (!heading.textContent)
-      console.warn(
-        `H2 heading at index ${index} has no text content. ID: ${heading.id}`,
-      );
+  // Populate side panel with links
+  const pageStyle = document.body.getAttribute("data-page-style");
+  console.log("Page style:", pageStyle);
 
-    link.addEventListener("click", (e) => {
-      e.preventDefault(); // Prevent default anchor behavior
-      console.log("Link clicked:", heading.id);
-      const targetElement = document.getElementById(heading.id);
-      if (targetElement) {
-        targetElement.scrollIntoView({ behavior: "smooth" });
-      }
-      togglePanel(); // Close panel after clicking a link
-    });
+  if (pageStyle === "india") {
+    // India page: just add link to California wedding
+    const link = document.createElement("a");
+    link.href = "/california/";
+    link.textContent = "California Wedding 2025";
     sidePanelNav.appendChild(link);
-  });
+  } else {
+    // California page: add link to India wedding first, then H2 headings
+    const indiaLink = document.createElement("a");
+    indiaLink.href = "/";
+    indiaLink.textContent = "India Wedding";
+    sidePanelNav.appendChild(indiaLink);
+
+    // Add H2 headings
+    const headings = document.querySelectorAll("h2");
+    console.log("Found H2 headings:", headings.length);
+    headings.forEach((heading, index) => {
+      // Ensure heading has an ID, or create one
+      if (!heading.id) {
+        heading.id = `h2-section-${index}`;
+      }
+      const link = document.createElement("a");
+      link.href = `#${heading.id}`;
+      link.textContent = heading.textContent || `Section ${index + 1}`; // Fallback text
+      if (!heading.textContent)
+        console.warn(
+          `H2 heading at index ${index} has no text content. ID: ${heading.id}`,
+        );
+
+      link.addEventListener("click", (e) => {
+        e.preventDefault(); // Prevent default anchor behavior
+        console.log("Link clicked:", heading.id);
+        const targetElement = document.getElementById(heading.id);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        }
+        togglePanel(); // Close panel after clicking a link
+      });
+      sidePanelNav.appendChild(link);
+    });
+  }
 
   hamburgerMenu.addEventListener("click", togglePanel);
   closeBtn.addEventListener("click", togglePanel);

@@ -1,0 +1,588 @@
+# How It Works: Wedding Website Technical Documentation
+
+## Overview
+
+This is a static wedding website for Meghna and Kshitij, deployed on Cloudflare Workers using Cloudflare Pages. The site uses Eleventy (11ty) as a static site generator to transform Markdown content into HTML, and is deployed via Cloudflare's infrastructure for global edge delivery.
+
+**Live Site:** https://meghnaandkshitij.us
+
+The site now has **two wedding pages**:
+- **India Wedding** (root `/`) - Minimal landing page
+- **California Wedding 2025** (`/california/`) - Full event details page
+
+## Architecture
+
+```
+┌──────────────────────────────────────┐
+│   index.md (India)                   │  ← Minimal India wedding page
+│   california.md (California)         │  ← Full California wedding details
+└────────┬─────────────────────────────┘
+         │
+         ▼
+┌─────────────────┐
+│  Eleventy (11ty)│  ← Static site generator
+│  + Nunjucks     │     Conditional CSS loading
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│  public/        │  ← Generated HTML + static assets
+│  - index.html   │     (India page)
+│  - california/  │     (California page)
+│  - india.css    │     (Gold/maroon theme)
+│  - bundle.css   │     (Pink theme)
+│  - script.js    │     (Smart navigation)
+│  - images       │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Cloudflare      │  ← Deployed via Wrangler
+│ Workers/Pages   │
+└─────────────────┘
+```
+
+## Tech Stack
+
+### Core Dependencies
+- **Eleventy v3.1.0** (`@11ty/eleventy`) - Static site generator
+- **Wrangler v4.18.0** (`wrangler`) - Cloudflare Workers CLI tool
+- **Node.js** - Runtime environment (ES modules enabled)
+
+### Template Engine
+- **Nunjucks** (.njk files) - Template language used by Eleventy
+
+## Project Structure
+
+```
+wedding-website/
+├── _includes/                    # Eleventy template directory
+│   └── default-layout.njk       # Base HTML layout (conditional CSS)
+├── public/                       # Build output directory (generated)
+│   ├── index.html               # India wedding (from index.md)
+│   ├── california/              # California wedding directory
+│   │   └── index.html           # California page (from california.md)
+│   ├── bundle.css               # California pink theme
+│   ├── india.css                # India gold/maroon theme
+│   ├── script.js                # Navigation logic
+│   ├── _includes/               # Copied directory
+│   └── *.jpeg, *.png, *.gif    # Image assets
+├── node_modules/                # Dependencies
+├── index.md                     # India wedding content (minimal)
+├── california.md                # California wedding content (full)
+├── bundle.css                   # California stylesheet
+├── india.css                    # India stylesheet
+├── script.js                    # Client-side JavaScript
+├── eleventy.config.js           # Eleventy configuration
+├── wrangler.jsonc              # Cloudflare Workers config
+├── justfile                     # Command runner (just)
+├── package.json                 # NPM dependencies
+└── .gitignore                   # Git ignore rules
+```
+
+## How Each Component Works
+
+### 1. Content Layer - Two Pages
+
+#### India Wedding Page (`index.md`)
+
+**File:** `index.md`
+
+Minimal landing page with:
+- **Front matter**:
+  ```yaml
+  ---
+  layout: default-layout.njk
+  pageStyle: india
+  ---
+  ```
+- **Content**: Just "we having india wedding"
+- **Theme**: Gold and maroon colors via `india.css`
+- **Navigation**: Hamburger menu links to California page
+
+#### California Wedding Page (`california.md`)
+
+**File:** `california.md`
+
+Full content page with:
+- **Front matter**:
+  ```yaml
+  ---
+  layout: default-layout.njk
+  pageStyle: california
+  ---
+  ```
+- **Content**:
+  - Event schedules (Wedding 7/3, Sangeet 7/4, Picnic 7/5)
+  - Venue information with Google Maps embeds
+  - Book swap gift registry (93 books!)
+  - Travel/accommodation info
+  - Spotify playlist embed
+  - Custom CSS styling for cards and interactive elements
+- **Theme**: Pink theme via `bundle.css`
+- **Navigation**: Hamburger menu links to India page + H2 sections
+
+### 2. Template Layer (Nunjucks)
+
+**File:** `_includes/default-layout.njk`
+
+The Nunjucks template provides conditional CSS loading:
+
+```html
+{% if pageStyle == "india" %}
+<link rel="stylesheet" href="/india.css">
+{% else %}
+<link rel="stylesheet" href="/bundle.css">
+{% endif %}
+```
+
+Also includes:
+- HTML5 document structure
+- Meta tags for responsive design
+- Google Fonts integration (Merriweather)
+- Hamburger menu navigation UI
+- Side panel navigation
+- Data attribute: `<body data-page-style="{{ pageStyle }}">`
+
+The `pageStyle` front matter variable controls which CSS is loaded and enables JavaScript to adapt navigation.
+
+### 3. Build Process (Eleventy)
+
+**File:** `eleventy.config.js`
+
+Eleventy configuration:
+```javascript
+export default function (eleventyConfig) {
+  eleventyConfig.setOutputDirectory("public");
+  eleventyConfig.addPassthroughCopy("bundle.css");
+  eleventyConfig.addPassthroughCopy("india.css");
+  eleventyConfig.addPassthroughCopy("script.js");
+  eleventyConfig.addPassthroughCopy("_includes");
+
+  return {
+    dir: {
+      includes: "_includes",
+    },
+  };
+}
+```
+
+**What this does:**
+1. Sets output directory to `public/`
+2. Copies `bundle.css` to `public/bundle.css` (California theme)
+3. Copies `india.css` to `public/india.css` (India theme)
+4. Copies `script.js` to `public/script.js` (navigation)
+5. Copies entire `_includes/` directory to public
+6. Processes `index.md` → `public/index.html` (India page)
+7. Processes `california.md` → `public/california/index.html` (California page)
+
+**Build command:** `npx @11ty/eleventy`
+
+The build process:
+- Reads both `index.md` and `california.md`
+- Parses front matter to get layout and pageStyle
+- Converts Markdown to HTML
+- Applies `default-layout.njk` template with conditional CSS
+- Injects processed content
+- Writes to appropriate output paths
+- Copies static assets via passthrough
+
+### 4. Styling - Two Themes
+
+#### India Theme (`india.css`)
+
+Minimal, elegant gold and maroon theme:
+- **Colors**:
+  - Background: `#FFF8E7` (cream)
+  - Primary text: `#800020` (maroon)
+  - Accent: `#D4AF37` (gold)
+  - Light gold: `#F5E6D3`
+- **Layout**: Flexbox centering for minimal content
+- **Components**: Hamburger menu, side panel styled for India theme
+- **Typography**: Merriweather font, centered text
+
+#### California Theme (`bundle.css`)
+
+Based on Sakura.css v1.5.0 with custom modifications:
+- **Colors**:
+  - Primary: `#ae2159` (accent-color)
+  - Hover: `#f489c2` (hover-accent-color)
+  - Background: `#ffe6f2` (pink)
+  - Text: `#532638`
+- **Responsive design**: Media queries for mobile devices
+- **Custom components**:
+  - `.hamburger-menu` - Fixed position navigation button
+  - `.side-panel` - Slide-in navigation menu
+  - `.details-card` - Gradient styled information cards
+- **Semantic styling**: Tables, links, images, buttons
+- **Accessibility**: Focus states, ARIA-compatible
+
+### 5. Client-Side JavaScript (script.js)
+
+**File:** `script.js`
+
+Implements smart navigation that adapts to page type:
+
+**Features:**
+1. **Page detection**: Reads `data-page-style` attribute from body
+2. **Conditional navigation**:
+   - **India page**: Shows only "California Wedding 2025" link
+   - **California page**: Shows "India Wedding" link + all H2 section links
+3. **Dynamic menu generation**:
+   - Creates anchor links in side panel
+   - Auto-generates IDs for headings if missing
+4. **Toggle functionality**: Opens/closes side panel
+5. **Smooth scrolling**: Navigates to sections on link click (California only)
+6. **Accessibility**:
+   - ARIA attributes (`aria-expanded`, `aria-hidden`)
+   - Keyboard support (Escape key closes panel)
+   - Focus management
+7. **UX enhancements**:
+   - Click outside to close
+   - Hides hamburger when panel is open
+
+**Code snippet:**
+```javascript
+const pageStyle = document.body.getAttribute("data-page-style");
+
+if (pageStyle === "india") {
+  // India page: just add link to California wedding
+  const link = document.createElement("a");
+  link.href = "/california/";
+  link.textContent = "California Wedding 2025";
+  sidePanelNav.appendChild(link);
+} else {
+  // California page: add link to India wedding + H2 headings
+  const indiaLink = document.createElement("a");
+  indiaLink.href = "/";
+  indiaLink.textContent = "India Wedding";
+  sidePanelNav.appendChild(indiaLink);
+  // ... then add H2 sections
+}
+```
+
+### 6. Deployment (Cloudflare Workers)
+
+**File:** `wrangler.jsonc`
+
+Cloudflare Workers configuration:
+```jsonc
+{
+  "name": "wedding-website",
+  "compatibility_date": "2025-05-29",
+  "assets": {
+    "directory": "./public"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
+```
+
+**What this configures:**
+- **Worker name**: `wedding-website`
+- **Static assets**: Serves everything from `./public` directory
+- **Observability**: Enables monitoring/logging
+- **Edge deployment**: Runs on Cloudflare's global network
+
+**Deployment command:** `npx wrangler deploy`
+
+### 7. Development Workflow (justfile)
+
+**File:** `justfile`
+
+Provides convenient command shortcuts using the `just` command runner:
+
+```makefile
+default:
+    @just --list              # Show all available commands
+
+deploy: build
+    npx wrangler deploy       # Build then deploy to production
+
+serve-locally:
+    npx @11ty/eleventy --serve  # Development server with live reload
+
+build:
+    npx @11ty/eleventy        # Build static site to public/
+```
+
+**Usage:**
+- `just` - List all commands
+- `just build` - Build the site
+- `just serve-locally` - Run local dev server (watches for changes)
+- `just deploy` - Build and deploy to production
+
+## Development Workflow
+
+### Local Development
+
+1. **Edit content**:
+   - Modify `index.md` for India page
+   - Modify `california.md` for California page
+   - Update `india.css` or `bundle.css` for styling
+2. **Start dev server**: Run `just serve-locally` (or `npx @11ty/eleventy --serve`)
+3. **Preview changes**:
+   - India page: http://localhost:8080
+   - California page: http://localhost:8080/california/
+4. **Server auto-rebuilds** on file changes
+
+The dev server:
+- Watches for file changes
+- Automatically rebuilds on changes
+- Provides live browser reload
+- Serves from the `public/` directory
+
+### Deployment Pipeline
+
+**Automatic Deployment:**
+```
+Push to GitHub → Cloudflare detects push → Runs build → Deploys
+```
+
+1. Push commits to GitHub repository
+2. Cloudflare Pages automatically detects the push
+3. Runs build command: `npx @11ty/eleventy`
+4. Runs deploy command: `npx wrangler deploy`
+5. Site goes live on Cloudflare's edge network
+
+**Manual Deployment:**
+```bash
+just deploy
+# or
+npx @11ty/eleventy && npx wrangler deploy
+```
+
+Note: Manual deployment requires Cloudflare authorization (only works for KL)
+
+### Adding Content
+
+#### To India Page:
+1. Edit `index.md`
+2. Keep `pageStyle: india` in front matter
+3. Build and preview
+
+#### To California Page:
+1. Edit `california.md`
+2. Keep `pageStyle: california` in front matter
+3. Build and preview
+
+### Adding Images
+
+1. Place image files in root directory (e.g., `IMG_1791.jpeg`)
+2. During build, Eleventy processes them
+3. Reference in Markdown: `![](./IMG_1791.jpeg)` (works from both pages)
+4. Images are included in `public/` directory when built
+5. Deployed to production automatically
+
+## URL Structure
+
+- **`/`** → India wedding landing page (`index.html`)
+- **`/california/`** → California wedding details page (`california/index.html`)
+
+Both pages share the same assets (images, scripts) but use different stylesheets.
+
+## NPM Scripts
+
+From `package.json`:
+- `npm run deploy` → `wrangler deploy` - Deploy to Cloudflare
+- `npm run dev` → `wrangler dev` - Run Wrangler dev server
+- `npm start` → `wrangler dev` - Alias for dev
+
+## Key Features
+
+### 1. Multi-Page Static Site
+- Two distinct wedding pages with shared infrastructure
+- Conditional CSS loading based on page type
+- Smart navigation that adapts to context
+- Single build process generates both pages
+
+### 2. Static Site Generation
+- Zero runtime dependencies on the server
+- Fast page loads (pre-rendered HTML)
+- SEO-friendly
+- Secure (no server-side code execution)
+
+### 3. Edge Deployment
+- Deployed to Cloudflare's global CDN
+- Low latency worldwide
+- Automatic HTTPS
+- DDoS protection
+
+### 4. Responsive Design
+- Mobile-first CSS for both themes
+- Responsive typography (rem-based sizing)
+- Breakpoints at 684px and 382px
+- Flexible layouts
+
+### 5. Interactive Elements
+- Hamburger menu navigation on both pages
+- Context-aware navigation links
+- Smooth scrolling (California page)
+- Particle effects on images (California page)
+- Embedded Google Maps (California page)
+- Embedded Spotify playlist (California page)
+
+### 6. Content-Rich California Page
+- Event schedules with times and locations
+- Book gift registry table (93 books!)
+- Travel information
+- Dress code suggestions
+- FAQs
+
+### 7. Minimal India Page
+- Clean, elegant design
+- Gold and maroon Indian wedding colors
+- Simple message: "we having india wedding"
+- Easy to expand with more content later
+
+## File Type Breakdown
+
+### Configuration Files
+- **package.json**: Node.js dependencies and scripts
+- **wrangler.jsonc**: Cloudflare Workers configuration (JSONC = JSON with comments)
+- **eleventy.config.js**: Static site generator settings (now includes both CSS files)
+- **justfile**: Command runner shortcuts
+- **.gitignore**: Git exclusions (node_modules, .vscode, .DS_Store)
+
+### Source Files
+- **index.md**: India wedding content (Markdown)
+- **california.md**: California wedding content (Markdown + HTML)
+- **bundle.css**: California stylesheet (pink theme)
+- **india.css**: India stylesheet (gold/maroon theme)
+- **script.js**: Client-side behavior (JavaScript)
+- **default-layout.njk**: HTML template with conditional CSS (Nunjucks)
+
+### Output Files (Generated)
+- **public/**: Entire build output directory
+- **public/index.html**: India page
+- **public/california/index.html**: California page
+- **public/bundle.css, india.css, script.js**: Copied assets
+- **public/*.jpeg, *.png, *.gif**: Image files
+
+## Technical Decisions
+
+### Why Two Pages Instead of One?
+- Separate weddings deserve separate presentations
+- India page can be expanded later without affecting California content
+- Each page can have distinct styling and tone
+- Easy to maintain and update independently
+
+### Why Conditional CSS Loading?
+- Avoids loading unnecessary styles
+- Keeps each page's CSS minimal
+- Pages load faster with only required styles
+- Clear separation of themes
+
+### Why Shared Template?
+- DRY principle (Don't Repeat Yourself)
+- Consistent HTML structure across pages
+- Easy to update navigation or meta tags globally
+- Conditional logic handled cleanly in Nunjucks
+
+### Why Eleventy?
+- Simple, fast static site generator
+- Flexible templating (Nunjucks, Liquid, etc.)
+- Zero config to get started
+- No JavaScript framework needed
+- Perfect for content-heavy sites
+- Easy to generate multiple pages from separate Markdown files
+
+### Why Cloudflare Workers?
+- Free tier is generous
+- Global edge network (fast everywhere)
+- Simple deployment with Wrangler
+- Integrated with GitHub for CI/CD
+- Built-in analytics (observability enabled)
+
+### Why Static Site?
+- Wedding sites are mostly informational
+- No need for server-side rendering
+- Better performance and security
+- Lower hosting costs
+- Easy to cache at the edge
+
+### Why Passthrough Copies?
+- CSS/JS files don't need processing
+- Faster builds (no transformation needed)
+- Keeps source files simple
+- Images can be added without config changes
+
+## Troubleshooting
+
+### Build Issues
+- Check Node.js version (ES modules require recent versions)
+- Ensure dependencies are installed: `npm install`
+- Check for syntax errors in `eleventy.config.js`
+- Verify front matter in both `index.md` and `california.md` includes `pageStyle`
+
+### Deployment Issues
+- Verify Cloudflare credentials
+- Check `wrangler.jsonc` configuration
+- Ensure `public/` directory exists and has content
+- Verify both pages built: check `public/index.html` and `public/california/index.html`
+
+### Dev Server Issues
+- Port 8080 might be in use (check console output)
+- File watching might not work (try manual refresh)
+- Check file permissions on `public/` directory
+
+### Navigation Issues
+- Verify `data-page-style` attribute on body tag
+- Check browser console for JavaScript errors
+- Ensure `script.js` is loading correctly
+- Test hamburger menu on both pages
+
+## Security Considerations
+
+1. **Static assets only**: No server-side code execution
+2. **No sensitive data**: All content is public
+3. **HTTPS enforced**: Via Cloudflare
+4. **No forms**: Uses Google Forms for RSVP (external)
+5. **Git ignored**: node_modules, IDE configs, OS files
+
+## Performance Optimizations
+
+1. **Conditional CSS loading**: Each page loads only its theme
+2. **Minimal CSS**: Classless frameworks keep file sizes small
+3. **Font optimization**: Google Fonts with preconnect
+4. **Image formats**: JPEG for photos (reasonable size)
+5. **Edge caching**: Cloudflare CDN
+6. **No build-time image optimization**: Keeps build simple/fast
+
+## Future Enhancements (Potential)
+
+- Expand India page content (dates, venues, RSVP)
+- Add India-specific color palette switcher
+- Image optimization during build (Sharp plugin)
+- CSS minification
+- JavaScript bundling/minification
+- PWA capabilities (service worker)
+- Analytics integration
+- Contact form (via Workers)
+
+## Summary
+
+This is a well-architected static wedding website that:
+1. **Serves two weddings** with distinct pages and themes
+2. Uses **conditional CSS loading** for theme separation
+3. Implements **smart navigation** that adapts to page context
+4. Uses Markdown for easy content editing
+5. Builds with Eleventy to static HTML
+6. Deploys to Cloudflare's edge network
+7. Provides automatic CI/CD via GitHub integration
+8. Offers a responsive, accessible user experience
+9. Requires minimal maintenance
+
+The separation of concerns (content/templates/styles/behavior) combined with conditional logic makes it easy to maintain two distinct wedding pages within a single, unified system.
+
+## Recent Changes (November 2025)
+
+Added India wedding as new front page:
+- Created `india.css` with gold/maroon theme
+- Created minimal `index.md` for India wedding
+- Moved California content to `california.md`
+- Updated `eleventy.config.js` to include both CSS files
+- Modified `default-layout.njk` for conditional CSS loading
+- Enhanced `script.js` for context-aware navigation
+- Both pages now cross-link via hamburger menu

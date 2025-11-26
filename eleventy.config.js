@@ -1,6 +1,7 @@
 export default function (eleventyConfig) {
   eleventyConfig.setOutputDirectory("public");
   eleventyConfig.addPassthroughCopy("bundle.css");
+  eleventyConfig.addPassthroughCopy("india.css");
   eleventyConfig.addPassthroughCopy("script.js");
   eleventyConfig.addPassthroughCopy("_includes");
 

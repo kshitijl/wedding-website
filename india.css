@@ -1,0 +1,173 @@
+/* India Wedding Minimal Theme - Gold and Maroon */
+:root {
+  --india-gold: #D4AF37;
+  --india-maroon: #800020;
+  --india-deep-red: #8B0000;
+  --india-cream: #FFF8E7;
+  --india-light-gold: #F5E6D3;
+}
+
+/* Body */
+html {
+  font-size: 62.5%;
+  font-family: Merriweather, serif;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.618;
+  max-width: 38em;
+  margin: auto;
+  color: var(--india-maroon);
+  background-color: var(--india-cream);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content centering */
+.india-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  font-family: Merriweather, serif;
+  font-weight: 600;
+  color: var(--india-maroon);
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-weight: 400;
+  color: var(--india-deep-red);
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 2.5rem;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: var(--india-maroon);
+}
+a:visited {
+  color: var(--india-maroon);
+}
+a:hover {
+  color: var(--india-gold);
+  border-bottom: 2px solid var(--india-gold);
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 1001;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hamburger-menu:hover {
+  background-color: var(--india-light-gold);
+}
+
+.hamburger-menu svg.hamburger-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.hamburger-menu svg.hamburger-icon path {
+  fill: var(--india-maroon);
+}
+
+.hamburger-menu.hamburger-hidden {
+  display: none;
+}
+
+/* Side Panel */
+.side-panel {
+  position: fixed;
+  top: 0;
+  right: -282px;
+  width: 280px;
+  height: 100%;
+  background-color: var(--india-cream);
+  box-shadow: -2px 0 5px rgba(128, 0, 32, 0.2);
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+  padding: 20px;
+  padding-top: 60px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  border-left: 3px solid var(--india-gold);
+}
+
+.side-panel.open {
+  right: 0;
+}
+
+.side-panel .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.side-panel .close-btn:hover {
+  background-color: var(--india-light-gold);
+}
+
+.side-panel .close-btn svg.close-icon {
+  width: 75%;
+  height: 75%;
+}
+
+.side-panel .close-btn svg.close-icon path {
+  stroke: var(--india-maroon);
+}
+
+#side-panel-nav a {
+  display: block;
+  padding: 10px 0;
+  color: var(--india-maroon);
+  text-decoration: none;
+  font-size: 1.6rem;
+  border-bottom: 1px solid var(--india-light-gold);
+}
+
+#side-panel-nav a:hover {
+  color: var(--india-gold);
+}
