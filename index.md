@@ -4,7 +4,7 @@ layout: default-layout.njk
 # **Meghna x Kshitij  1.0**
 
 <div class="details-card">
-  <h1 class="card-title">Today: 🎶🎭 THANKSGIVINGGGG</h1>
+  <h1 class="card-title">Today: 🎶🎭 THANKSGIVewkwkwke3keINGGGG</h1>
   <div class="card-content">
     <div class="info-section">
       <h4 class="section-header">📍 Time and Place</h4>
