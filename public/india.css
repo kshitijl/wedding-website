@@ -1,16 +1,84 @@
 /* India Wedding Minimal Theme - Gold and Maroon */
+
+/* Costa Font Import */
+@font-face {
+  font-family: 'Costa';
+  src: url('/Costa-Font.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* PPObjectSans Font Import */
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('/PPObjectSans-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('/PPObjectSans-ThinSlanted.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('/PPObjectSans-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('/PPObjectSans-Slanted.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('/PPObjectSans-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('/PPObjectSans-BoldSlanted.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('/PPObjectSans-Heavy.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPObjectSans';
+  src: url('/PPObjectSans-HeavySlanted.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
 :root {
-  --india-gold: #D4AF37;
+  --india-gold: #664e00;
   --india-maroon: #800020;
-  --india-deep-red: #8B0000;
+  --india-deep-red: #390101;
   --india-cream: #FFF8E7;
   --india-light-gold: #F5E6D3;
+
+  --font-costa: 'Costa', Merriweather, serif;
 }
 
 /* Body */
 html {
   font-size: 62.5%;
-  font-family: Merriweather, serif;
+  font-family: 'PPObjectSans', sans-serif;
 }
 
 body {
@@ -39,7 +107,8 @@ body {
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
-  font-family: Merriweather, serif;
+  font-family: var(--font-costa);
+  /* font-family: Merriweather, serif; */
   font-weight: 600;
   color: var(--india-maroon);
 }
@@ -51,7 +120,10 @@ h1 {
   margin-top: 2rem;
   font-weight: 400;
   color: var(--india-deep-red);
+  font-family: var(--font-costa);
 }
+
+
 
 p {
   margin-top: 0px;
@@ -60,8 +132,8 @@ p {
 
 /* Links */
 a {
-  text-decoration: none;
-  color: var(--india-maroon);
+  
+  color: var(--india-deep-red);
 }
 a:visited {
   color: var(--india-maroon);
@@ -170,4 +242,100 @@ a:hover {
 
 #side-panel-nav a:hover {
   color: var(--india-gold);
+}
+
+/* Event Details Section */
+.info-section {
+  margin-bottom: 4rem;
+}
+
+.day-container {
+  margin-bottom: 3rem;
+  border-bottom: 2px solid var(--india-gold);
+}
+
+.day-container:last-child {
+  border-bottom: none;
+}
+
+.day-header {
+  font-size: 2.4rem;
+  font-family: var(--font-costa);
+  color: var(--india-deep-red);
+  margin-bottom: 2rem;
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+
+
+.event-item:last-child {
+  margin-bottom: 0;
+}
+
+.event-name {
+  font-size: 2rem;
+  color: var(--india-maroon);
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.event-timing {
+  font-size: 1.6rem;
+  color: var(--india-gold);
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.event-description {
+  font-size: 1.7rem;
+  line-height: 1.7;
+  color: var(--india-maroon);
+  margin-bottom: 0;
+  text-align: left;
+}
+
+
+.event-timing, .dress-code-description {
+ font-size: 1.6rem;
+  color: var(--india-deep-red);
+  font-weight: 500;
+  text-align: center; 
+
+}
+
+/* Dress Code Highlights */
+.dress-code-highlights {
+  text-align: left;
+  line-height: 1.8;
+}
+
+.dress-code-highlights strong {
+  color: var(--india-deep-red);
+  font-weight: 600;
+}
+
+/* Color Palette */
+.color-palette {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.color-swatch {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border: 2px solid var(--india-maroon);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.color-swatch:hover {
+  transform: scale(1.1);
 }
