@@ -41,12 +41,26 @@ pageStyle: india
           <h4 class="event-name">Haldi</h4>
           <p class="event-timing">9.30-11am</p>
              <p class="dress-code-description"> Dress Code: Casual or Semi-Formal!</p>
-          <p class="event-description">A joyous celebration of color.You might get to throw flowers at us</p>
+          <p class="event-description">A joyous celebration of color. You might get to throw flowers at us</p>
+        </div>
+        
+        <div class="event-item">
+          <h4 class="event-name">Sehrabandi</h4>
+          <p class="event-timing">4.30-5pm</p>
+           <p class="dress-code-description"> Dress Code: Formal!</p>
+          <p class="event-description">The groom's face is veiled. Men get a turban tied on their head.</p>
+        </div>
+
+        <div class="event-item">
+          <h4 class="event-name">Baraat</h4>
+          <p class="event-timing">5pm</p>
+           <p class="dress-code-description"> Dress Code: Formal!</p>
+          <p class="event-description">Dancing procession to wedding venue</p>
         </div>
 
         <div class="event-item">
           <h4 class="event-name">Wedding Ceremony</h4>
-          <p class="event-timing">4.30pm onwards</p>
+          <p class="event-timing">5.30pm onwards</p>
            <p class="dress-code-description"> Dress Code: Formal!</p>
           <p class="event-description">Marriage ceremony with a view of the ocean</p>
         

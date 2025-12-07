@@ -2,65 +2,65 @@
 
 /* Costa Font Import */
 @font-face {
-  font-family: 'Costa';
-  src: url('/Costa-Font.otf') format('opentype');
+  font-family: "Costa";
+  src: url("/Costa-Font.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 /* PPObjectSans Font Import */
 @font-face {
-  font-family: 'PPObjectSans';
-  src: url('/PPObjectSans-Thin.otf') format('opentype');
+  font-family: "PPObjectSans";
+  src: url("/PPObjectSans-Thin.otf") format("opentype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PPObjectSans';
-  src: url('/PPObjectSans-ThinSlanted.otf') format('opentype');
+  font-family: "PPObjectSans";
+  src: url("/PPObjectSans-ThinSlanted.otf") format("opentype");
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'PPObjectSans';
-  src: url('/PPObjectSans-Regular.otf') format('opentype');
+  font-family: "PPObjectSans";
+  src: url("/PPObjectSans-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PPObjectSans';
-  src: url('/PPObjectSans-Slanted.otf') format('opentype');
+  font-family: "PPObjectSans";
+  src: url("/PPObjectSans-Slanted.otf") format("opentype");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'PPObjectSans';
-  src: url('/PPObjectSans-Bold.otf') format('opentype');
+  font-family: "PPObjectSans";
+  src: url("/PPObjectSans-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PPObjectSans';
-  src: url('/PPObjectSans-BoldSlanted.otf') format('opentype');
+  font-family: "PPObjectSans";
+  src: url("/PPObjectSans-BoldSlanted.otf") format("opentype");
   font-weight: 700;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'PPObjectSans';
-  src: url('/PPObjectSans-Heavy.otf') format('opentype');
+  font-family: "PPObjectSans";
+  src: url("/PPObjectSans-Heavy.otf") format("opentype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PPObjectSans';
-  src: url('/PPObjectSans-HeavySlanted.otf') format('opentype');
+  font-family: "PPObjectSans";
+  src: url("/PPObjectSans-HeavySlanted.otf") format("opentype");
   font-weight: 900;
   font-style: italic;
 }
@@ -69,16 +69,16 @@
   --india-gold: #664e00;
   --india-maroon: #800020;
   --india-deep-red: #390101;
-  --india-cream: #FFF8E7;
-  --india-light-gold: #F5E6D3;
+  --india-cream: #fff8e7;
+  --india-light-gold: #f5e6d3;
 
-  --font-costa: 'Costa', Merriweather, serif;
+  --font-costa: "Costa", Merriweather, serif;
 }
 
 /* Body */
 html {
   font-size: 62.5%;
-  font-family: 'PPObjectSans', sans-serif;
+  font-family: "PPObjectSans", sans-serif;
 }
 
 body {
@@ -105,7 +105,12 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.1;
   font-family: var(--font-costa);
   /* font-family: Merriweather, serif; */
@@ -123,8 +128,6 @@ h1 {
   font-family: var(--font-costa);
 }
 
-
-
 p {
   margin-top: 0px;
   margin-bottom: 2.5rem;
@@ -132,7 +135,6 @@ p {
 
 /* Links */
 a {
-  
   color: var(--india-deep-red);
 }
 a:visited {
@@ -269,8 +271,6 @@ a:hover {
   font-weight: 700;
 }
 
-
-
 .event-item:last-child {
   margin-bottom: 0;
 }
@@ -295,16 +295,15 @@ a:hover {
   line-height: 1.7;
   color: var(--india-maroon);
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
 }
 
-
-.event-timing, .dress-code-description {
- font-size: 1.6rem;
+.event-timing,
+.dress-code-description {
+  font-size: 1.6rem;
   color: var(--india-deep-red);
   font-weight: 500;
-  text-align: center; 
-
+  text-align: center;
 }
 
 /* Dress Code Highlights */
