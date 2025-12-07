@@ -7,12 +7,12 @@ pageStyle: india
 
 <h1> Meghna <br>
 & Kshitij </h1>
-<div class="info-section">
-      <h2 class="section-header">Event Overview</h2>
-Event placeholder
-    </div>
-<div class="info-section">
-      <h2 class="section-header">Event Details</h2>
+<!-- <div class="info-section"> -->
+      <!-- <h2 class="section-header">Event Overview</h2> -->
+<!-- Event placeholder -->
+    <!-- </div> -->
+<!-- <div class="info-section"> -->
+      <!-- <h2 class="section-header">Event Details</h2> -->
 
       <div class="day-container">
         <h3 class="day-header">Day 1</h3>
