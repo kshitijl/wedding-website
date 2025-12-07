@@ -15,11 +15,11 @@ pageStyle: india
       <!-- <h2 class="section-header">Event Details</h2> -->
 
       <div class="day-container">
-        <h3 class="day-header">Day 1</h3>
+        <h3 class="day-header">Feb 1</h3>
 
         <div class="event-item">
           <h4 class="event-name">Mehendi</h4>
-          <p class="event-timing">Timing: Afternoon</p>
+          <p class="event-timing">3.30-5.30pm</p>
            <p class="dress-code-description"> Dress Code: Casual or Semi-Formal</p>
           <p class="event-description">Join us for mehendi (henna), snacks, and singing.<br>Professional mehndi artists will be available throughout the afternoon.</p>
           
@@ -27,7 +27,7 @@ pageStyle: india
 
         <div class="event-item">
           <h4 class="event-name">Sangeet</h4>
-          <p class="event-timing">Timing: Evening</p>
+          <p class="event-timing">7.30pm onwards</p>
            <p class="dress-code-description"> Dress Code: Cocktail & Party Attire</p>
           <p class="event-description">Dinner, cocktails, and dancing underneath the night sky.</p>
           
@@ -35,18 +35,18 @@ pageStyle: india
       </div>
 
       <div class="day-container">
-        <h3 class="day-header">Day 2</h3>
+        <h3 class="day-header">Feb 2</h3>
 
         <div class="event-item">
           <h4 class="event-name">Haldi</h4>
-          <p class="event-timing">Timing: Morning</p>
+          <p class="event-timing">9.30-11am</p>
              <p class="dress-code-description"> Dress Code: Casual or Semi-Formal!</p>
           <p class="event-description">A joyous celebration of color.You might get to throw flowers at us</p>
         </div>
 
         <div class="event-item">
           <h4 class="event-name">Wedding Ceremony</h4>
-          <p class="event-timing">Timing: Late Afternoon</p>
+          <p class="event-timing">4.30pm onwards</p>
            <p class="dress-code-description"> Dress Code: Formal!</p>
           <p class="event-description">Marriage ceremony with a view of the ocean</p>
         
