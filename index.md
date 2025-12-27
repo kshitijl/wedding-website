@@ -3,19 +3,19 @@ layout: default-layout.njk
 pageStyle: india
 ---
 
+<div class="marigolds-banner"></div>
+<div class="page-wrapper">
 <section class="india-content">
 
-<h1> Meghna <br>
-& Kshitij </h1>
-<div class="info-section">
-      <h2 class="section-header">Event Overview</h2>
-Event placeholder
-    </div>
+<div class="logo"> <span id="meghna"> Meghna</span> <span id="kshitij">
+<span id="shortened"> & K</span><span>shitij</span></span></div>
+
+
 <div class="info-section">
       <h2 class="section-header">Event Details</h2>
 
       <div class="day-container">
-        <h3 class="day-header">Day 1</h3>
+        <h3 class="day-header">  ❖ Day One ❖</h3>
 
         <div class="event-item">
           <h4 class="event-name">Mehendi</h4>
@@ -35,7 +35,7 @@ Event placeholder
       </div>
 
       <div class="day-container">
-        <h3 class="day-header">Day 2</h3>
+        <h3 class="day-header">❖ Day Two ❖</h3>
 
         <div class="event-item">
           <h4 class="event-name">Haldi</h4>
@@ -59,7 +59,7 @@ Event placeholder
 <ol>
 <li>We want you to feel beautiful and comfortable. Period.</li>
 <li>Indian, Indo-Western, and Western clothes are welcome for any and all events.</li>
-<li>There are no restricted colors, but the Haldi is a great time to wear yellow! (If you <em>must</em> have a color palette, we will send it to you)</li>
+<li>There are no restricted colors. (If you <em>must</em> have a color palette, we will send it to you)</li>
 </ol>
 <h3 >Where to get Indian Clothes</h3>
 <p> For our Global friends, if you'd like to get Indian clothes, here is a short list of brands & stores. <br> For the more casual events you'd be looking for kurtas, simple sarees, or simple lehengas. For the formal event you'd be looking for more elaborate sarees and lehengas or bandhgala, sherwanis styles.  </p>
@@ -74,3 +74,4 @@ Event placeholder
 </div>
     </div>
 </section>
+</div>
