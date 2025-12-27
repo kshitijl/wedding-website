@@ -15,7 +15,7 @@ pageStyle: india
       <h2 class="section-header">Event Details</h2>
 
       <div class="day-container">
-        <h3 class="day-header">  ❖ Day One ❖</h3>
+        <h3 class="day-header">  ❖ February 1 ❖</h3>
 
         <div class="event-item">
           <h4 class="event-name">Mehendi</h4>
@@ -35,7 +35,7 @@ pageStyle: india
       </div>
 
       <div class="day-container">
-        <h3 class="day-header">❖ Day Two ❖</h3>
+        <h3 class="day-header">❖ February 2 ❖</h3>
 
         <div class="event-item">
           <h4 class="event-name">Haldi</h4>
