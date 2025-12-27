@@ -78,7 +78,7 @@
 
 
   
-  --color-accent: #1a0f0f;
+  --color-accent: #121212;
   --color-text: #250606;
   --color-body-text: #1f1818;
   --color-heading: #bf172a;
@@ -312,12 +312,11 @@ a:hover {
 }
 
 .day-container {
-  margin-bottom: 7rem;
+  margin-bottom: 3rem;
 }
 
 .day-container:last-child {
   border-bottom: none;
-  margin-bottom: 9rem;
 }
 
 .day-header {
@@ -338,7 +337,7 @@ a:hover {
 }
 
 .event-name {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--color-text);
   margin-bottom: 0.5rem;
   margin-top: 0;
@@ -354,7 +353,7 @@ a:hover {
 .event-description {
   font-size: 1.8rem;
   line-height: 1.7;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
   /* text-align: left; */
   
 }
@@ -404,21 +403,17 @@ a:hover {
 /* Marigolds Banner */
 .marigolds-banner {
   width: 100%;
-  height: 18rem;
+  height: 15rem;
   background-image: url('/marigolds3.png');
   background-repeat: repeat-x;
   background-position: top center;
   background-size: auto 100%;
-  border-top: 3px solid #bf172a
 }
 
 /* Mobile: smaller banner */
 @media (max-width: 768px) {
   .marigolds-banner {
     height: 10rem;
-  }
-  .logo{
-    font-size: 24px;
   }
 }
 
